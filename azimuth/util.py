@@ -9,7 +9,7 @@ import sklearn.metrics
 import Bio.SeqUtils.MeltingTemp as Tm
 import Bio.Entrez as Entrez
 import Bio.SeqUtils as SeqUtil
-from . import features.microhomology as microhomology
+from .features import microhomology
 from Bio import SeqIO
 from . import metrics as ranking_metrics
 import os
