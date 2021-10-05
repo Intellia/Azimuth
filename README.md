@@ -1,3 +1,10 @@
+# Note
+This is **NOT** the original version of Arimuth, and changes include:
+
+1. Update all `python2` code to `python3`
+2. Update `sklearn` to 1.0, fix some `pandas` API call
+3. Retrained the model with sklearn v1.0.
+
 # Azimuth
 ##### Machine Learning-Based Predictive Modelling of CRISPR/Cas9 guide efficiency.
 [![Travis](https://img.shields.io/travis/MicrosoftResearch/Azimuth.svg)](https://travis-ci.org/MicrosoftResearch/Azimuth) [![PyPI](https://img.shields.io/pypi/v/azimuth.svg)](https://pypi.python.org/pypi/azimuth) [![PyPI](https://img.shields.io/pypi/l/azimuth.svg)]()
