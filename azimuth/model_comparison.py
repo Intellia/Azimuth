@@ -615,8 +615,8 @@ def write_results(predictions, file_to_predict):
 if __name__ == '__main__':
     #save_final_model_V3(filename='azimuth/azure_models/V3_model_full.pickle', include_position=True)
 
-    save_final_model_V3(filename='saved_models/V3_model_nopos.pickle', include_position=False)
-    save_final_model_V3(filename='saved_models/V3_model_full.pickle', include_position=True)
+    save_final_model_V3(filename='azimuth/saved_models/V3_model_nopos.pickle', include_position=False)
+    save_final_model_V3(filename='azimuth/saved_models/V3_model_full.pickle', include_position=True)
 
     # predict('GGGCCGCTGTTGCAGGTGGCGGGTAGGATC', 'sense', 1200, 30.3, model_file='../saved_models/final_model_nicolo.pickle')
 
